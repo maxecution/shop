@@ -145,27 +145,6 @@ button:active {
   padding: 0.5rem 0.75rem;
 }
 
-#calc-total {
-  background: linear-gradient(135deg, #2b57cc, #6b8dff);
-}
-
-#calc-total:hover {
-  background: linear-gradient(135deg, #1c3ea5, #5a7bff);
-}
-
-#clear-basket {
-  background: linear-gradient(135deg, #cc2b2b, #ff6b6b);
-}
-
-#clear-basket:hover {
-  background: linear-gradient(135deg, #a51c1c, #ff5a5a);
-}
-
-#calc-total:active,
-#clear-basket:active {
-  transform: translateY(1px);
-}
-
 #tax-input {
   width: fit-content;
   height: fit-content;
