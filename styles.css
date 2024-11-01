@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #f0f4ff, #cce2ff);
+  background-image: url("https://t3.ftcdn.net/jpg/02/64/92/28/360_F_264922838_NErJEovZiP9MTa49apqL1Vs3f88ZT8Dg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+main {
+  background: #fff;
+  padding: 2rem;
+  max-width: 600px;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #2b57cc;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  color: #5a5a5a;
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+#new-product,
+#items-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+select,
+input[type="number"] {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+select:focus,
+input[type="number"]:focus {
+  outline: none;
+  border-color: #5b9aff;
+  box-shadow: 0 0 5px rgba(91, 154, 255, 0.5);
+}
+
+button {
+  background: linear-gradient(135deg, #2b57cc, #6b8dff);
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #1c3ea5, #5a7bff);
+}
+
+button:active {
+  transform: translateY(2px);
+}
+
+#add-item {
+  margin-top: 1rem;
+}
+
+#items-container {
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+}
+
+#controls-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+#calc-total {
+  background: linear-gradient(135deg, #2b57cc, #6b8dff);
+}
+
+#calc-total:hover {
+  background: linear-gradient(135deg, #1c3ea5, #5a7bff);
+}
+
+#clear-basket {
+  background: linear-gradient(135deg, #cc2b2b, #ff6b6b);
+}
+
+#clear-basket:hover {
+  background: linear-gradient(135deg, #a51c1c, #ff5a5a);
+}
+
+#calc-total:active,
+#clear-basket:active {
+  transform: translateY(2px);
+}
+
+#total,
+#tax-paid,
+#total-discount {
+  font-size: 1.25rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1rem;
+  color: #2a54c8;
+}
+
+#tax-paid,
+#total-discount {
+  color: #a2a2a2;
+}
+
+#tax-input,
+#calc-total,
+#clear-basket {
+  font-size: 0.875rem;
+  padding: 0.5rem 0.75rem;
+}
+
+#calc-total {
+  background: linear-gradient(135deg, #2b57cc, #6b8dff);
+}
+
+#calc-total:hover {
+  background: linear-gradient(135deg, #1c3ea5, #5a7bff);
+}
+
+#clear-basket {
+  background: linear-gradient(135deg, #cc2b2b, #ff6b6b);
+}
+
+#clear-basket:hover {
+  background: linear-gradient(135deg, #a51c1c, #ff5a5a);
+}
+
+#calc-total:active,
+#clear-basket:active {
+  transform: translateY(1px);
+}
+
+#tax-input {
+  width: fit-content;
+  height: fit-content;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-left: 0.5rem;
+}
+
+#tax-container {
+  display: flex;
+  align-items: center;
+}

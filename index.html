@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Scamazon</title>
+  </head>
+  <body>
+    <main>
+      <h1>Scamazon</h1>
+      <div id="new-product">
+        <h3>Select Item:</h3>
+        <select id="item-list" name="item"></select>
+        <h3>Enter Quantity:</h3>
+        <input type="number" min="0" id="item-quantity" placeholder="Enter quantity" aria-label="Enter quantity" min="1" />
+
+        <button id="add-item" onclick="addItem()">Add Item</button>
+
+        <br /><br />
+      </div>
+      <h3>Basket:</h3>
+      <div id="items-container"></div>
+      <br />
+      <br />
+
+      <div id="controls-container">
+        <div id="tax-container">
+          <h3>Select State:</h3>
+          <select id="tax-input" name="state"></select>
+        </div>
+
+        <button id="calc-total" aria-label="Calculate Total" onclick="getTotal()">Calculate Total</button>
+        <button id="clear-basket" aria-label="Clear Basket" onclick="clearBasket()">Clear Basket</button>
+      </div>
+
+      <p id="total-discount"></p>
+      <p id="tax-paid"></p>
+      <p id="total"></p>
+    </main>
+    <script src="scripts.js"></script>
+  </body>
+</html>

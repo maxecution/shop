@@ -1,0 +1,13 @@
+[
+  { "name": "Poutine", "price": 1 },
+  { "name": "Sky Live", "price": 5 },
+  { "name": "Saltire socks", "price": 30 },
+  { "name": "Will Smith CD", "price": 50 },
+  { "name": "Ainsley Harriott book", "price": 50 },
+  { "name": "Twilight box set", "price": 100 },
+  { "name": "Boyzone photo", "price": 125 },
+  { "name": "Piccolo recipe", "price": 400 },
+  { "name": "Mitch's Footy boots", "price": 800 },
+  { "name": "Monkey Paw", "price": 1250 },
+  { "name": "St George Socks", "price": 2000 }
+]
